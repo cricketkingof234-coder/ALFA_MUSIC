@@ -8,7 +8,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("8371711175:AAHZz1tQ2SjdYZ2r9x2c-5DX6SvI2Agpua0")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
@@ -25,7 +25,7 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PURVI_BOTS")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/PURVI_UPDATES")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+K5pL_MVGkhNiZTM1")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
